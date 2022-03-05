@@ -175,6 +175,8 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/SuccessResponse'
+        401:
+          description: Not Authenticated 
         422:
           description: Invalid input.
 
@@ -215,6 +217,8 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/ListReportResponse'
+        401:
+          description: Not Authenticated 
         404:
           description: Report not found or invalid.
   /v1/report/download/{report_id}:
@@ -239,6 +243,8 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/ListReportResponse'
+        401:
+          description: Not Authenticated 
   /v1/report/update_data/{report_id}:
     put:
       tags:
@@ -261,6 +267,8 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/ListReportResponse'
+        401:
+          description: Not Authenticated 
         422:
           description: Invalid input.
   /v1/report/update_file/{report_id}:
@@ -301,6 +309,8 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/SuccessResponse'
+        401:
+          description: Not Authenticated 
         422:
           description: Invalid input.
   /v1/report/delete/{report_id}:
