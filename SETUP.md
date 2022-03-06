@@ -13,6 +13,7 @@ Install Required Libraries
 python3 -m venv pymyenv
 . pymyenv/bin/activate
 make install
+pip install flask-monitoringdashboard
 ```
 
 Set Env Variables
