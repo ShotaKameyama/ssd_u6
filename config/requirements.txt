@@ -29,5 +29,9 @@ pylint
 flake8
 flake8-html
 
+# Type Checking
+wheel
+pyre-check
+
 # SAST
 bandit

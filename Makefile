@@ -1,6 +1,6 @@
 install:
 	python3 -m pip install --upgrade pip &&\
-		python3 -m pip install -r requirements.txt
+		python3 -m pip install -r ./config/requirements.txt
 		
 sudo_install_redoc-cli:
 	sudo apt-get update &&\
