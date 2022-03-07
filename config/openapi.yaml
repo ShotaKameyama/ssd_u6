@@ -9,7 +9,7 @@ servers:
   description: URL can be changed depending on the domain or url that you generate. 
 tags:
 - name: Auth Microservice
-  description: User Credentials and Session Management
+  description: User Credentials and Authentication Token Management
 - name: Report Microservice
   description: Manage Reports
 paths:
